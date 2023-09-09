@@ -60,7 +60,9 @@
   .col-2 img {
     max-width: 100%;
     padding: 50px 0;
+    margin-right: 50px;
   }
+
   
   .col-2 h1 {
     font-size: 50px;
@@ -170,11 +172,13 @@
     padding: 30px 0;
 
   }
-  
+  .col-3{
+    right: 8px;
+  }
+
   .col-2 .offer-img {
     padding: 50px;
   }
-  
   small {
     color: #555;
   }
@@ -183,4 +187,9 @@
     background: radial-gradient(#fff, #ffd6d6);
     margin-top: 80px;
     padding: 30px 0;
+    }
+    .socialbar{
+      display: flex;
+      align-items: center;
+      padding: 20px; 
     }
