@@ -172,8 +172,8 @@
     padding: 30px 0;
 
   }
-  .col-3{
-    right: 8px;
+  .col-3 h1{
+    right: 80px;
   }
 
   .col-2 .offer-img {
@@ -188,8 +188,20 @@
     margin-top: 80px;
     padding: 30px 0;
     }
-    .socialbar{
+    .social_pad {
       display: flex;
-      align-items: center;
-      padding: 20px; 
+      align-items: flex; /* Align items at the top */
+      padding: 30px;
+    }
+    .socialbar-phtots {
+      display: flex;
+      padding: 50px;
+      margin-left: 300%;
+    }
+    .socialbar-phtots a {
+      margin-bottom: 10px; /* Adjust this value to set the desired space between icons and content */
+      margin-right: -100px; /* Adjust this value to set the desired distance between icons */
+    }
+    .socialbar {
+      margin-left: -100 px;
     }
