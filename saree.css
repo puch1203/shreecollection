@@ -182,6 +182,9 @@
   small {
     color: #555;
   }
+  .Contact{
+    margin-left: 50px;
+  }
 
   .brands{
     background: radial-gradient(#fff, #ffd6d6);
